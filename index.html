@@ -61,7 +61,7 @@
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
-          <ul>
+          <ul class="staff__container">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -139,13 +139,11 @@
             </h3>
             <div class="event-info events__info-section">
               <div class="event-info__item">
-              <div
-                class="event-info__icon event-info__icon_type_calendar"
-              ></div>
-              <p class="event-info__text">
-                Mon, January 12
-              </p>
-            </div>
+                <div
+                  class="event-info__icon event-info__icon_type_calendar"
+                ></div>
+                <p class="event-info__text">Mon, January 12</p>
+              </div>
             </div>
             <div class="event-info__item">
               <div class="event-info__icon event-info__icon_type_pin"></div>
@@ -210,6 +208,7 @@
                 alt="Annie Jump mitchell"
                 class="person__image person__image_size_s"
               />
+            </div>
           </div>
         </section>
         <section class="membership" id="become-a-member">
@@ -288,11 +287,52 @@
               the American Geophysical Union.
             </p>
           </div>
-          <!--<div class="about__circle"></div> -->
+          <div class="about__circle"></div>
         </section>
       </main>
       <footer class="footer" id="footer">
-        <!-- The time to mark up the footer has come, you can do it 💪 -->
+        <div class="footer__columns">
+          <div>
+            <img
+              class="footer__logo"
+              src="./images/logo_practicum.svg"
+              alt="footer logo"
+            />
+            <p class="footer__copyright">© 2022 Cristopher Campos Lopez</p>
+          </div>
+          <div class="footer__column_content_hours">
+            <h4 class="footer__column-heading">Hours</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am-8pm</li>
+              <li class="footer__list-item">Weekends: 10am-6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column_content_social">
+            <h4 class="footer__column-heading">Social media</h4>
+            <a class="footer__column-link" href="#">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/facebook_white.svg"
+                  alt="facebook icon"
+                />
+                Facebook
+              </li>
+            </a>
+            <a class="footer__column-link" href="#">
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/instagram_white.svg"
+                  alt="instagram icon"
+                />
+                Instagram
+              </li>
+            </a>
+            </ul>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
