@@ -3,7 +3,6 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 16 px;
   line-height: 20px;
 }
 
@@ -128,7 +127,6 @@
   display: flex;
   max-width: 760px;
   margin: 68px auto 0px auto;
-  padding-left: 0px;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 40px;
@@ -187,7 +185,7 @@
 }
 
 .events__heading {
-  font-size: 20=px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   margin: 0;
@@ -215,18 +213,16 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  width: 24px;
+  height: 24px;
 }
 
 .event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
-  width: 24px;
-  height: 24px;
 }
 
 .event-info__icon_type_pin {
   background-image: url(../images/icon_pin.svg);
-  width: 24px;
-  height: 24px;
 }
 
 .event-info__text {
@@ -293,7 +289,7 @@
 
 .person_name_tarter {
   top: 79px;
-  left: 223px;
+  left: 159px;
 }
 
 .person__image {
@@ -344,7 +340,7 @@
 }
 
 .step {
-  width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -387,7 +383,7 @@
 .about__content {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400px;
+  font-weight: 400;
   gap: 32px;
   max-width: 660px;
   display: flex;
@@ -453,7 +449,6 @@
   margin: 0;
   display: flex;
   padding-bottom: 16px;
-  gap: 5px;
 }
 
 .footer__column-heading {
@@ -480,6 +475,5 @@
 
 .footer__copyright {
   display: flex;
-  position: relative;
-  bottom: -215px;
+  margin-top: 224px;
 }
